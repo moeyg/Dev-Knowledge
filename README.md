@@ -1,4 +1,4 @@
-# Interview
+# Front-end Knowledge
 
 ## 🚀 Intro
 Front-end 개발자가 갖춰야 할 지식에 대해 Interview 스터디 멤버들과 함께 정리해 보았습니다. <br>
