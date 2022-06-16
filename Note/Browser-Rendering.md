@@ -6,7 +6,7 @@
 
 CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
-![Untitled](https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-1.png)
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-1.png" width="30px")
 
 1. **HTML 파싱 후, DOM(Document Object Model) 트리 구축**
 2. **CSS 파싱 후, CSSOM(CSS Object Model) 트리 구축**
@@ -19,7 +19,7 @@ CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
 ## 1. DOM 트리 구축
 
-![Untitled](https://github.com/moeyg/Front-end-Knowledge/blob/2d162b742815bf905a047624a6f499706e4289c8/Images/Browser-Rendering/Browser-Rendering-2.png)
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px")
 
 DOM(Document Object Model) 트리는 완전히 구문 분석된 HTML 페이지의 Object 표현이다.
 
@@ -31,7 +31,7 @@ HTML의 장점은 부분적으로 실행될 수 있다는 것이다. 페이지�
 
 ## 2. CSSOM 트리 구축
 
-![Untitled](https://github.com/moeyg/Front-end-Knowledge/blob/2d162b742815bf905a047624a6f499706e4289c8/Images/Browser-Rendering/Browser-Rendering-3.png)
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px")
  
 CSSOM(CSS Object Model)은 DOM과 연관된 스타일의 Object 표현이다.
 
@@ -44,6 +44,7 @@ CSS는 "렌더링 차단 리소스" 로 간주된다.
 따라서 스타일 시트 전체가 파싱 되기 전에 스타일 시트에서 앞에서 정의한 CSS 스타일을 사용하기 시작하면 잘못된 CSS가 적용되는 상황이 발생할 수 있다.
 
 즉, 다음 단계로 넘어 가기 전에 CSS를 완전히 파싱 해야 한다.
+     
 <br>
 
 ## 3. **JavaScript 실행**
@@ -53,6 +54,7 @@ JavaScript는 "파서 차단 리소스"로 간주된다.
 즉, HTML 문서 자체의 구문 분석은 JavaScript에 의해 차단된다. 파서가 <script> 태그에 도달하면 (외부 태그 인 경우) fetch를 중단하고 실행한다. 따라서 문서 내의 요소를 참조하는 JavaScript 파일이 있는 경우 해당 문서가 표시된 후에 배치 해야 한다.
 
 JavaScript가 파서 차단되는 것을 피하기 위해 `<script async src="script.js">` 와 같이 `async` 속성을 적용하여 비동기적으로 로드 할 수 있다.
+   
 <br>
 
 ## 4. 렌더트리 구축
@@ -61,8 +63,9 @@ JavaScript가 파서 차단되는 것을 피하기 위해 `<script async src="sc
 
 즉, 표시되는 내용만 캡쳐하기 때문에 `display:none`을 사용하여 CSS로 숨겨진 요소는 포함하지 않는다.
 
-![Untitled](https://github.com/moeyg/Front-end-Knowledge/blob/2d162b742815bf905a047624a6f499706e4289c8/Images/Browser-Rendering/Browser-Rendering-4.png)
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-4.png" width="30px")
 
+<br>
 <br>
 
 ## 5. 레이아웃 생성
