@@ -6,7 +6,7 @@
 
 CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-1.png" width="30px")
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-1.png" width="30px" />
 
 1. **HTML 파싱 후, DOM(Document Object Model) 트리 구축**
 2. **CSS 파싱 후, CSSOM(CSS Object Model) 트리 구축**
@@ -19,7 +19,7 @@ CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
 ## 1. DOM 트리 구축
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px")
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px" />
 
 DOM(Document Object Model) 트리는 완전히 구문 분석된 HTML 페이지의 Object 표현이다.
 
@@ -31,7 +31,7 @@ HTML의 장점은 부분적으로 실행될 수 있다는 것이다. 페이지�
 
 ## 2. CSSOM 트리 구축
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px")
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-2.png" width="30px" />
  
 CSSOM(CSS Object Model)은 DOM과 연관된 스타일의 Object 표현이다.
 
@@ -63,7 +63,7 @@ JavaScript가 파서 차단되는 것을 피하기 위해 `<script async src="sc
 
 즉, 표시되는 내용만 캡쳐하기 때문에 `display:none`을 사용하여 CSS로 숨겨진 요소는 포함하지 않는다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-4.png" width="30px")
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-4.png" width="30px" />
 
 <br>
 <br>
