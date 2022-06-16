@@ -75,7 +75,7 @@ Promise.resolve().then(() => console.log('Micro-task-queue'));
 
 `console.log('Micro-task-queue')` 가 실행된다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/1433707dea3ddf3eb54437c8d9eab17ab9c9d04f/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-09.png" width="600px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/7d89e49ffa888509ce9c6b1bb3750a2c0b6db8b9/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-09.png" width="600px" />
 
  `Promise` 의 콜백 함수가 끝나고 태스크 큐에서 제일 오래된 태스크인 `setTimeout()` 의 콜백함수를 가져와 콜 스택에 넣는다.
 
