@@ -6,7 +6,7 @@
 
 CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
-![Untitled](/Users/moeyg/Desktop/Front-end-Knowledge/Images/Browser-Rendering/Browser-Rendering-1.png)
+![Untitled](https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-1.png)
 
 1. **HTML 파싱 후, DOM(Document Object Model) 트리 구축**
 2. **CSS 파싱 후, CSSOM(CSS Object Model) 트리 구축**
@@ -16,7 +16,7 @@ CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 6. **계산한 위치와 크기를 기반으로 화면에 그리기 (페인팅)**
    <br>
 
-## **1. DOM 트리 구축**
+## 1. DOM 트리 구축
 
 ![Untitled](/Users/moeyg/Desktop/Front-end-Knowledge/Images/Browser-Rendering/Browser-Rendering-2.png)
 
@@ -27,7 +27,7 @@ DOM(Document Object Model) 트리는 완전히 구문 분석된 HTML 페이지�
 HTML의 장점은 부분적으로 실행될 수 있다는 것이다. 페이지에 내용이 표시하기 위해 전체 문서를 로드할 필요가 없다. 그러나 다른 리소스인 CSS와 JS는 페이지 렌더링을 차단할 수 있다.
 <br>
 
-## **2. CSSOM 트리 구축**
+## 2. CSSOM 트리 구축
 
 ![Untitled](/Users/moeyg/Desktop/Front-end-Knowledge/Images/Browser-Rendering/Browser-Rendering-3.png)
 
