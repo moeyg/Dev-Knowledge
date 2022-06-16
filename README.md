@@ -9,7 +9,7 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 
 ### 💻 Computer Science
 
-  [홈페이지가 사용자에게 보이는 순서를 설명하세요.](https://github.com/moeyg/Front-end-Knowledge/blob/e775bcb9fab3fe7c619b0a2786ed854bc6ea229e/Note/Browser-Rendering.md)
+  [홈페이지가 사용자에게 보이는 순서를 설명하세요.](https://github.com/moeyg/Front-end-Knowledge/blob/0c9f282b23ba1aa44633e9339581d2cdd4b7dba2/Note/Browser-Rendering.md)
 
 ### 🟨 JavaScript
 
