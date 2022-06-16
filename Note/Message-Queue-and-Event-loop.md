@@ -24,27 +24,25 @@
 
  태스크가 콜백 함수라면 그 종류에 따라 다른 큐에 담기며 대표적인 예로는 다음과 같은 것들이 있다.
 
-- **태스크 큐 :** `setTimeout()` , `setInterval()` , UI 렌더링, `requestAnimationFrame()`
+- **매크로 태스크 큐 :** `setTimeout()` , `setInterval()` , UI 렌더링, `requestAnimationFrame()`
 - **마이크로 태스크 큐 :** `Promise`,`MutationObserver`
     
     
 
  이벤트 루프는 2개의 큐를 감시하고 있다가 콜 스택이 비면, 콜백 함수를 꺼내와서 실행한다. 
 
- 이 때 마이크로 태스크 큐의 콜백 함수가 우선순위를 가지기 때문에 마이크로 태스크 큐의 콜백 함수를 전부 실행하고 나서 태스크 큐의 콜백 함수들을 실행한다.
-
- (단, UI 렌더링이 태스크 큐에 속하기 때문에 마이크로 태스크 큐의 태스크가 많으면 렌더링이 지연될 수 있다.)
+ 이 때 마이크로 태스크 큐의 콜백 함수가 우선순위를 가지기 때문에 마이크로 태스크 큐의 콜백 함수를 전부 실행하고 나서 매크로 태스크 큐의 콜백 함수들을 실행한다.
 
 ```jsx
-console.log('call stack');
-setTimeout(() => console.log('task queue'), 0);
-Promise.resolve().then(() => console.log('Micro task queue'));
+console.log('call-stack');
+setTimeout(() => console.log('Macro-task-queue'), 0);
+Promise.resolve().then(() => console.log('Micro-task-queue'));
 
 // 결과
 
-call stack
-Micro task queue
-task queue
+call-stack
+Micro-task-queue
+Macro-task-queue
 ```
 
  다음과 같은 코드가 처음 실행될 때,
@@ -57,7 +55,7 @@ task queue
 
  이후, 이벤트 루프가 그 태스크를 로드해 스크립트를 실행시킨다.
 
- 따라서 맨 처음에 `console.log('call stack')` 이 실행된다.
+ 따라서 맨 처음에 `console.log('call-stack')` 이 실행된다.
 
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-05.png" width="600px" />
 
@@ -75,13 +73,13 @@ task queue
 
 이벤트 루프는 마이크로 태스크 큐에서 `Promise()` 의 콜백함수를 가져와 콜 스택에 넣는다.
 
-`console.log('Micro task queue')` 가 실행된다.
+`console.log('Micro-task-queue')` 가 실행된다.
 
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-09.png" width="600px" />
 
  `Promise` 의 콜백 함수가 끝나고 태스크 큐에서 제일 오래된 태스크인 `setTimeout()` 의 콜백함수를 가져와 콜 스택에 넣는다.
 
- 그리고 마지막으로 `console.log('Task queue')` 가 실행된다.
+ 그리고 마지막으로 `console.log('Macro-task-queue')` 가 실행된다.
 
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-10.png" width="600px" />
 
