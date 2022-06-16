@@ -57,7 +57,7 @@ Promise.resolve().then(() => console.log('Micro-task-queue'));
 
  따라서 맨 처음에 `console.log('call-stack')` 이 실행된다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/1433707dea3ddf3eb54437c8d9eab17ab9c9d04f/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-05.png.png" width="600px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/1433707dea3ddf3eb54437c8d9eab17ab9c9d04f/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-05.png" width="600px" />
 
 그 다음, `setTimeout()` 이 콜 스택으로 가고 브라우저가 이를 받아서 타이머를 동작시킨다.
 
