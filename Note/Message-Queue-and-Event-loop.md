@@ -6,11 +6,11 @@
 
  즉, 특정 코드를 수행 완료한 이후 아래줄의 코드를 수행하는 동기적 처리 방식을 갖는다는 것을 의미한다. (참고로 비동기적은 특정 코드를 수행하는 도중에도 아래로 계속 내려가며 수행하는 방식을 갖는다.)
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-01.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-01.png" width="600px" />
 
  우선 콜 스택은 실행되는 순서를 기억한다. 함수를 실행하려면, stack에 해당하는 함수를 집어 넣게 되는데 함수에서 리턴이 일어나면, 스택의 가장 위쪽에서 해당하는 함수를 꺼내준다. 이것이 콜 스택이 하는 일의 전부이다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-02.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-02.png" width="600px" />
 
   무엇인가를 리턴할 때마다 위와 같이 스택의 맨 위에 있는 것을 하나씩 꺼내게 된다. 예시에서는  `multifly` 에서  `square` 로 리턴 되고  `printSquare` 까지 돌아와  `console.log` 를 실행한다. 
 
@@ -49,41 +49,41 @@ task queue
 
  다음과 같은 코드가 처음 실행될 때,
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-03.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-03.png" width="600px" />
 
 가장 우선적으로 “스크립트 실행” 이 태스크 큐에 들어가게 된다. 
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-04.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-04.png" width="600px" />
 
  이후, 이벤트 루프가 그 태스크를 로드해 스크립트를 실행시킨다.
 
  따라서 맨 처음에 `console.log('call stack')` 이 실행된다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-05.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-05.png" width="600px" />
 
 그 다음, `setTimeout()` 이 콜 스택으로 가고 브라우저가 이를 받아서 타이머를 동작시킨다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-06.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-06.png" width="600px" />
 
 타이머가 끝나면 `setTimeout()` 의 콜백 함수를 태스크 큐에 넣고 대기 시킨다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-07.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-07.png" width="600px" />
 
 `Promise()` 가 콜 스택으로 가고 콜백 함수를 마이크로 태스크 큐에 넣는다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-08.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-08.png" width="600px" />
 
 이벤트 루프는 마이크로 태스크 큐에서 `Promise()` 의 콜백함수를 가져와 콜 스택에 넣는다.
 
 `console.log('Micro task queue')` 가 실행된다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-09.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-09.png" width="600px" />
 
  `Promise` 의 콜백 함수가 끝나고 태스크 큐에서 제일 오래된 태스크인 `setTimeout()` 의 콜백함수를 가져와 콜 스택에 넣는다.
 
  그리고 마지막으로 `console.log('Task queue')` 가 실행된다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-10.png" width="500px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/b0dc36bf1d071cfaff77d1d2637be3d904eea4c1/Images/Message-Queue-and-Event-loop/Message-Queue-and-Event-loop-10.png" width="600px" />
 
 모든 과정이 끝나면 콜 스택이 비게 되고 프로그램이 종료된다.
 
