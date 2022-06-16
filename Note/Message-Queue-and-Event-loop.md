@@ -40,9 +40,9 @@ Promise.resolve().then(() => console.log('Micro-task-queue'));
 
 // 결과
 
-call-stack
-Micro-task-queue
-Macro-task-queue
+// call-stack
+// Micro-task-queue
+// Macro-task-queue
 ```
 
  다음과 같은 코드가 처음 실행될 때,
