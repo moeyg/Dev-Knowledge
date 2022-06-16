@@ -63,7 +63,7 @@ JavaScript가 파서 차단되는 것을 피하기 위해 `<script async src="sc
 
 즉, 표시되는 내용만 캡쳐하기 때문에 `display:none`을 사용하여 CSS로 숨겨진 요소는 포함하지 않는다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-4.png" width="600px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/d179b03c1e9f08078d52f52c7051ffcf86dedaf8/Images/Browser-Rendering/Browser-Rendering-4.png" width="500px" />
 
 <br>
 <br>
