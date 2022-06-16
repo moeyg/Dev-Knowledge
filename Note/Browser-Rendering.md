@@ -6,7 +6,7 @@
 
 CRP는 6단계를 거쳐 홈페이지를 사용자에게 보여준다.
 
-<img src="Images/Browser-Rendering/Browser-Rendering-1.png" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/f6f6739b692c54f1356f8a418b7ad26f5444ba0f/Images/Browser-Rendering/Browser-Rendering-1.png" />
 
 1. **HTML 파싱 후, DOM(Document Object Model) 트리 구축**
 2. **CSS 파싱 후, CSSOM(CSS Object Model) 트리 구축**
