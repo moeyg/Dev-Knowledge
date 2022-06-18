@@ -13,4 +13,4 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 
 ### 🟨 JavaScript
 
-  [메시지 큐와 이벤트 루프](https://github.com/moeyg/Front-end-Knowledge/blob/b92a71d159844d30c87ce5e1c02db81f3b4c96d1/Note/Message-Queue-and-Event-loop.md)
+  [메시지 큐와 이벤트 루프](https://github.com/moeyg/Front-end-Knowledge/blob/97a26c229c49d32119b0ebcd94d11e6b3974bcde/Note/Message-Queue-and-Event-loop.md)
