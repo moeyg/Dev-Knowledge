@@ -7,6 +7,6 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 
 ## 📝 List
 
-∙ [홈페이지가 사용자에게 보이는 순서를 설명하세요.](https://github.com/moeyg/Front-end-Knowledge/blob/0c9f282b23ba1aa44633e9339581d2cdd4b7dba2/Note/Browser-Rendering.md)
+• [홈페이지가 사용자에게 보이는 순서를 설명하세요.](https://github.com/moeyg/Front-end-Knowledge/blob/0c9f282b23ba1aa44633e9339581d2cdd4b7dba2/Note/Browser-Rendering.md)
 <br>
-∙ [메시지 큐와 이벤트 루프](https://github.com/moeyg/Front-end-Knowledge/blob/97a26c229c49d32119b0ebcd94d11e6b3974bcde/Note/Message-Queue-and-Event-loop.md)
+• [메시지 큐와 이벤트 루프](https://github.com/moeyg/Front-end-Knowledge/blob/97a26c229c49d32119b0ebcd94d11e6b3974bcde/Note/Message-Queue-and-Event-loop.md)
