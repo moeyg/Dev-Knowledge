@@ -1,4 +1,5 @@
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/4bfd33877b5a876fffaf5d995ac0d724d997af60/Images/MacroTaskQueue-MicroStackQueue/MacroTaskQueue-MicroStackQueue-1.gif" width="250px" />
+
  자바스크립트에서 비동기 작업들은 백그라운드를 통해 태스크 큐에 추가됩니다. 태스크 큐는 발생한 순서대로 쌓이고 이벤트 루프에 의해 처리됩니다.
 
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/4bfd33877b5a876fffaf5d995ac0d724d997af60/Images/MacroTaskQueue-MicroStackQueue/MacroTaskQueue-MicroStackQueue-2.gif" width="250px" />
