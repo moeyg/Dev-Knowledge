@@ -3,7 +3,7 @@
 
  자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 자바스크립트의 일반적인 용도는 웹 페이지에 기능을 더해 HTML 웹 페이지를 동적으로 움직이게 만드는 것이다.
  
- 
+ <br>
 
 ### ➕ 실제 사용시에는 멀티 스레드처럼 사용하는데 어떻게 사용하나요?
 <img src="https://github.com/moeyg/Front-end-Knowledge/blob/ca0a1948304fbfbe1fbb8ee01ff4463db197af9b/Images/MacroTaskQueue-MicroStackQueue/MacroTaskQueue-MicroStackQueue-1.gif" width="300px" />
@@ -14,7 +14,7 @@
 
 우선 태스크 큐는 큐 형태로 Web API에서 넘겨 받은 콜백 함수를 저장한다. 이 콜백 함수들은 이벤트 루프를 통해 콜 스택에 옮겨진다. 이 과정을 통해 멀티 스레드처럼 처리할 수 있다.
 
-
+<br>
 
 ### ➕ 비동기적으로 실행이 되는 것을 동기적으로 코딩하는 방법이 있나요?
 
