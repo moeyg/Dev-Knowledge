@@ -15,4 +15,4 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 <br>
 • [마이크로 태스크 큐와 매크로 태스크 큐에 대해서 말씀해 주세요.](https://github.com/moeyg/Front-end-Knowledge/blob/eb64b100754d97d61319ff5816bbb304c1334114/Note/MacroTaskQueue-MicroStackQueue.md)
 <br>
-• [JavaScript는 어떤 언어인가요?] ()
+• [JavaScript는 어떤 언어인가요?](https://github.com/moeyg/Front-end-Knowledge/blob/c3de88524616f54c661b4f17cccfd113eebc782d/Note/What-is-JavaScript.md)
