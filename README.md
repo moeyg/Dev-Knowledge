@@ -11,8 +11,8 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 <br>
 • [메시지 큐와 이벤트 루프](https://github.com/moeyg/Front-end-Knowledge/blob/97a26c229c49d32119b0ebcd94d11e6b3974bcde/Note/Message-Queue-and-Event-loop.md)
 <br>
-• [브라우저 저장소에 대해서 차이점을 설명해 주세요. (Localstaorage, SessionStorage, Cookie)](https://github.com/moeyg/Front-end-Knowledge/blob/44dc9cffae57c7eab4fecb455cc4b6280a45107e/Note/Browser-Storage.md)
+• [브라우저 저장소 : Cookie & Web Storage](https://github.com/moeyg/Front-end-Knowledge/blob/44dc9cffae57c7eab4fecb455cc4b6280a45107e/Note/Browser-Storage.md)
 <br>
-• [마이크로 태스크 큐와 매크로 태스크 큐에 대해서 말씀해 주세요.](https://github.com/moeyg/Front-end-Knowledge/blob/eb64b100754d97d61319ff5816bbb304c1334114/Note/MacroTaskQueue-MicroStackQueue.md)
+• [마이크로 태스크 큐와 매크로 태스크 큐](https://github.com/moeyg/Front-end-Knowledge/blob/eb64b100754d97d61319ff5816bbb304c1334114/Note/MacroTaskQueue-MicroStackQueue.md)
 <br>
-• [JavaScript는 어떤 언어인가요?](https://github.com/moeyg/Front-end-Knowledge/blob/0da0c3994a7bd00869b6619fc1e2d1ac2c45242b/Note/What-is-JavaScript.md)
+• [JavaScript](https://github.com/moeyg/Front-end-Knowledge/blob/0da0c3994a7bd00869b6619fc1e2d1ac2c45242b/Note/What-is-JavaScript.md)
