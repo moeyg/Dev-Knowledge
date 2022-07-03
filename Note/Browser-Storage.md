@@ -1,4 +1,4 @@
-# 브라우저 저장소에 대해서 차이점을 설명해 주세요. (Localstaorage, SessionStorage, Cookie)
+# 브라우저 저장소 - Web Staorage, Cookie
 
 브라우저 저장소는 크게 쿠키와 웹 스토리지로 나눌 수 있다.
 
