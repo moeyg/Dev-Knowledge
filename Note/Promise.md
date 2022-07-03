@@ -19,12 +19,12 @@
 ```jsx
 const promise = new Promise((resolve, reject) => {
 	// 동기로 시작하기 어렵고 무거운 일 수행 중..
-  // 딜레이 
+	// 딜레이 
 	setTimeout(() => {
 		// 성공적으로 수행
 		resolve('completion');
 		// 수행 실패
-    // Error 핸들링
+    		// Error 핸들링
 		reject(new Error('No network'));
 	}, 2000);
 });
@@ -57,6 +57,8 @@ promise.catch((error) => {
  `.then`을 호출하게 되면 `Promise`를 리턴하기 때문에 리턴된 `Promise`에서 `catch`를 등록할 수 있는 것이다.
 
  보통 `Promise` 안에는 무거운 일을 수행하는 함수가 들어있다. 예를 들면, 네트워크에서 데이터를 받아오거나 파일에서 큰 데이터를 불러오는 과정은 시간이 꽤 걸린다. 이러한 일들을 동기로 시작하면 그 다음 라인의 코드가 실행되지 않기 때문에 시간이 걸리는 일들은 `Promise`로 처리하는 것이 좋다.
+ 
+ <br>
 
 ## 정리
 
