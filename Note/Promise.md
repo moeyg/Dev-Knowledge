@@ -4,13 +4,13 @@
 
  `Promise`는 기능이 실행되고 나서 정상적으로 수행 되었다면 성공 메시지와 함께 처리된 결과값을 리턴하고, 만약 수행 중 문제가 발생하면 에러 메시지를 호출할 수 있다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/7865562c07b10183112ec5ac2cdb1bc2eb5c2b4f/Images/Promise/Promise-1.png" width="700px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/7865562c07b10183112ec5ac2cdb1bc2eb5c2b4f/Images/Promise/Promise-1.png" width="800px" />
 
  `Promise`는 생성되고 오퍼레이션을 수행 중일 때는 pending 상태가 되고, 성공적으로 끝내게 되면 fullfilled 상태가 된다. 하지만, 파일을 찾을 수 없거나 네트워크 오류가 생긴다면 rejected 상태가 됩니다. 
 
  `Promise`에는 원하는 기능을 수행해서 데이터를 만들어 내는 Producer와 테이터를 소비하는 Consumer object로 나눠진다.
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/7865562c07b10183112ec5ac2cdb1bc2eb5c2b4f/Images/Promise/Promise-2.png" width="700px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/7865562c07b10183112ec5ac2cdb1bc2eb5c2b4f/Images/Promise/Promise-2.png" width="800px" />
 
  우선 Producer에 대해서 알아보면, 
 
