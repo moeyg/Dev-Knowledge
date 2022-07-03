@@ -13,6 +13,6 @@ Front-end 개발자가 갖춰야 할 지식에 대해 스터디 멤버들과 함
 <br>
 • [브라우저 저장소 - Cookie & Web Storage](https://github.com/moeyg/Front-end-Knowledge/blob/962878a8c4693b92ef4e81c2d30a1151f8fd8763/Note/Browser-Storage.md)
 <br>
-• [마이크로 태스크 큐와 매크로 태스크 큐](https://github.com/moeyg/Front-end-Knowledge/blob/eb64b100754d97d61319ff5816bbb304c1334114/Note/MacroTaskQueue-MicroStackQueue.md)
+• [매크로 태스크 큐와 마이크로 태스크 큐](https://github.com/moeyg/Front-end-Knowledge/blob/778f4427acea59bcb558df41479839bd19f1f300/Note/MacroTaskQueue-MicroStackQueue.md)
 <br>
 • [JavaScript](https://github.com/moeyg/Front-end-Knowledge/blob/0da0c3994a7bd00869b6619fc1e2d1ac2c45242b/Note/What-is-JavaScript.md)
