@@ -20,4 +20,4 @@ Front-end 개발자가 갖춰야 할 지식에 대해 정리했습니다.
 <br>
 • [Promise](https://github.com/moeyg/Front-end-Knowledge/blob/08f0fb82c089ef16b4f9b1f754b92bd9e0c06078/Note/Promise.md)
 <br>
-• [async / await]()
+• [async / await](https://github.com/moeyg/Front-end-Knowledge/blob/49c0055726f0a73bc21ca426b5de745ee18aff31/Note/async-await.md)
