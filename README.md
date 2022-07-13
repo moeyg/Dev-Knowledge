@@ -16,7 +16,7 @@ Front-end 개발자가 갖춰야 할 지식에 대해 정리했습니다.
 <br>
 • [매크로 태스크 큐와 마이크로 태스크 큐](https://github.com/moeyg/Front-end-Knowledge/blob/778f4427acea59bcb558df41479839bd19f1f300/Note/MacroTaskQueue-MicroStackQueue.md)
 <br>
-• [JavaScript](https://github.com/moeyg/Front-end-Knowledge/blob/0da0c3994a7bd00869b6619fc1e2d1ac2c45242b/Note/What-is-JavaScript.md)
+• [JavaScript](https://github.com/moeyg/Front-end-Knowledge/blob/99a2f8688d7fd0c9523c635d1a6415c903241bb6/Note/What-is-JavaScript.md)
 <br>
 • [Promise](https://github.com/moeyg/Front-end-Knowledge/blob/08f0fb82c089ef16b4f9b1f754b92bd9e0c06078/Note/Promise.md)
 <br>
