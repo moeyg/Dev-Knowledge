@@ -10,7 +10,7 @@
 
 ## ➕ 실제 사용시에는 멀티 스레드처럼 사용하는데 어떻게 사용하나요?
 
-<img src="https://github.com/moeyg/Front-end-Knowledge/blob/ca0a1948304fbfbe1fbb8ee01ff4463db197af9b/Images/MacroTaskQueue-MicroStackQueue/MacroTaskQueue-MicroStackQueue-1.gif" width="250px" />
+<img src="https://github.com/moeyg/Front-end-Knowledge/blob/ca0a1948304fbfbe1fbb8ee01ff4463db197af9b/Images/MacroTaskQueue-MicroStackQueue/MacroTaskQueue-MicroStackQueue-1.gif" width="500px" />
 
 자바스크립트는 싱글 스레드 언어이다. 즉, 자바스크립트 엔진은 하나의 메모리 힙과 단일 콜 스택을 가지고 있다. 그러므로 엔진 구조상으로 한 번에 하나의 함수만 동기적으로 실행이 가능한 것이다.
 
