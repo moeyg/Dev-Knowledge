@@ -1,4 +1,4 @@
-# Front-end Knowledge
+# Dev Knowledge
 
 ## 🚀 Intro
 
