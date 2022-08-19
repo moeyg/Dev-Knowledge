@@ -6,9 +6,12 @@
 
 <br>
 
-## ✨ Commit convention rule : 상태 : 주제 날짜(00-00-00)
+## ✨ Commit convention - 상태 : 주제 날짜(00-00-00)
+<br>
 ex. Add : Browser Rendering (00-00-00)
+<br>
 ex. Update : Browser Rendering (00-00-00)
+<br>
 ex. Delete : Browser Rendering (00-00-00)
 
 <br>
