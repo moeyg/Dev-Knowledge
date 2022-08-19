@@ -22,7 +22,7 @@ ex. Delete : Browser Rendering (00-00-00)
 
 | [박도겸](https://github.com/moeyg) | [김민영](https://github.com/minyoung22222) | [허지현](https://github.com/Koreanhamster)|
 | -------------------------------- | ----------------------------------------- | --------------------------------------- |
-| <img src="https://avatars.githubusercontent.com/u/102715022?v=4" height="200" width="200"> | <img src="" height="200" width="200"> | <img src="" height="200" width="200"> |
+| <img src="https://avatars.githubusercontent.com/u/102715022?v=4" height="100" width="100"> | <img src="" height="100" width="100"> | <img src="" height="100" width="100"> |
 | <div align='center'> [moeyg](https://github.com/moeyg) </div> | <div align='center'> [minyoung22222](https://github.com/minyoung22222) </div> |  <div align='center'> [Koreanhamster](https://github.com/Koreanhamster) </div> |
 
 </div>
