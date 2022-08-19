@@ -4,6 +4,18 @@
 
 개발자가 갖춰야 할 지식에 대해 정리했습니다. 
 
+## Members
+
+<div align='center'>
+
+| [박도겸](https://github.com/moeyg) | [김민영](https://github.com/minyoung22222) | [허지현](https://github.com/Koreanhamster)|
+| -------------------------------- | ----------------------------------------- | --------------------------------------- |
+| <img src="https://avatars.githubusercontent.com/u/102715022?v=4" height="200" width="200"> | <img src="" height="200" width="200"> | <img src="" height="200" width="200"> |
+| [moeyg](https://github.com/moeyg) | [minyoung22222](https://github.com/minyoung22222) | [Koreanhamster](https://github.com/Koreanhamster) |
+
+</div>
+
+
 <br>
 
 ## 📝 List
