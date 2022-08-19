@@ -6,6 +6,13 @@
 
 <br>
 
+## ✨ Commit convention rule : 상태 : 주제 날짜(00-00-00)
+ex. Add : Browser Rendering (00-00-00)
+ex. Update : Browser Rendering (00-00-00)
+ex. Delete : Browser Rendering (00-00-00)
+
+<br>
+
 ## 🙌 Members
 
 <div align='center'>
