@@ -6,29 +6,6 @@
 💡 잘못된 내용은 이슈와 PR로 알려주세요.
 
 <br>
-
-## ✨ Commit convention - 상태 : 주제 날짜(00-00-00)
-
-ex. Add : Browser Rendering (00-00-00)
-<br>
-ex. Update : Browser Rendering (00-00-00)
-<br>
-ex. Delete : Browser Rendering (00-00-00)
-
-<br>
-<br>
-
-## 🙌 Members
-
-<div align='center'>
-
-| [박도겸](https://github.com/moeyg)                                                         | [김민영](https://github.com/minyoung22222)                                    | [허지현](https://github.com/Koreanhamster)                                    |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| <img src="https://avatars.githubusercontent.com/u/102715022?v=4" height="150" width="150"> | <img src="" height="150" width="150">                                         | <img src="" height="150" width="150">                                         |
-| <div align='center'> [moeyg](https://github.com/moeyg) </div>                              | <div align='center'> [minyoung22222](https://github.com/minyoung22222) </div> | <div align='center'> [Koreanhamster](https://github.com/Koreanhamster) </div> |
-
-</div>
-
 <br>
 
 ## 📝 List
@@ -45,8 +22,4 @@ ex. Delete : Browser Rendering (00-00-00)
 <br>
 • [Promise](https://github.com/moeyg/Front-end-Knowledge/blob/08f0fb82c089ef16b4f9b1f754b92bd9e0c06078/Note/Promise.md)
 <br>
-• [async / await](https://github.com/moeyg/Front-end-Knowledge/blob/49c0055726f0a73bc21ca426b5de745ee18aff31/Note/async-await.md)
-
-## TEST
-
--   테스트입니당
+• [async / await](https://github.com/moeyg/Front-end-Knowledge/blob/49c0055726f0a73bc21ca426b5de745ee18aff31/Note/async-await.md
