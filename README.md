@@ -6,7 +6,6 @@
 💡 잘못된 내용은 이슈와 PR로 알려주세요.
 
 <br>
-<br>
 
 ## 📝 List
 
@@ -22,4 +21,4 @@
 <br>
 • [Promise](https://github.com/moeyg/Front-end-Knowledge/blob/08f0fb82c089ef16b4f9b1f754b92bd9e0c06078/Note/Promise.md)
 <br>
-• [async / await](https://github.com/moeyg/Front-end-Knowledge/blob/49c0055726f0a73bc21ca426b5de745ee18aff31/Note/async-await.md
+• [async / await](https://github.com/moeyg/Front-end-Knowledge/blob/49c0055726f0a73bc21ca426b5de745ee18aff31/Note/async-await.md)
