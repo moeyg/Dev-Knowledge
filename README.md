@@ -15,7 +15,7 @@
 <br>
 • [브라우저 저장소 - Cookie & Web Storage](https://github.com/moeyg/Front-end-Knowledge/blob/962878a8c4693b92ef4e81c2d30a1151f8fd8763/Note/Browser-Storage.md)
 <br>
-• [매크로 태스크 큐와 마이크로 태스크 큐](https://github.com/moeyg/Front-end-Knowledge/blob/778f4427acea59bcb558df41479839bd19f1f300/Note/MacroTaskQueue-MicroStackQueue.md)
+• [매크로 태스크 큐와 마이크로 태스크 큐](https://github.com/moeyg/Dev-Knowledge/blob/main/Note/MacroTaskQueue-MicroStackQueue.md)
 <br>
 • [JavaScript](https://github.com/moeyg/Front-end-Knowledge/blob/99a2f8688d7fd0c9523c635d1a6415c903241bb6/Note/What-is-JavaScript.md)
 <br>
